@@ -1,13 +1,18 @@
 # lein-mvn
 
-FIXME: write description
+This is a simple Leiningen plugin, that serves as a bridge to Maven.
+It can be used to run any mvn goal on a maven-enabled project.
 
 ## Usage
 
-FIXME: write
+  lein mvn package -DskipTests=true
+
+  lein mvn clean
+
+  lein mvn --version
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Fabio Kung <fabio.kung@gmail.com>
 
 Distributed under the Eclipse Public License, the same as Clojure.
