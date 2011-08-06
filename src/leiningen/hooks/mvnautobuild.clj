@@ -1,7 +1,7 @@
-(ns leiningen.hooks.mvn-autobuild
-  (use 'robert.hooke)
-  (require 'leiningen.deps)
-  (require 'leiningen.mvn))
+(ns leiningen.hooks.mvnautobuild
+  (use robert.hooke)
+  (require leiningen.deps)
+  (require leiningen.mvn))
 
 (defn- mvn-deps [task & args]
   (apply task args)
